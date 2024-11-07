@@ -1,8 +1,8 @@
 # Automatic-Classification-of-Digestive-Tract-Disorders-in-Endoscopy-Images-using-CNNs
-- **Overview**
+**Overview**
  This project aims to enhance the diagnostic process for gastrointestinal (GI) tract disorders by automatically classifying endoscopic images. Leveraging the Kvasir dataset, we applied image preprocessing and deep learning techniques to improve diagnostic accuracy for GI disorders such as peptic ulcers, polyps, and esophagitis. Our model employs Convolutional Neural Networks (CNNs) with InceptionV3 and ResNet50V2 architectures to achieve robust classification results, helping medical professionals efficiently identify digestive tract conditions.
 
-- **Dataset**
+**Dataset**
 - Name: Kvasir Dataset
 - Description: The Kvasir dataset consists of 3,500 labeled GI tract endoscopy images across multiple classes, specifically designed for training and evaluating computer vision models for digestive tract disorders.
 - Classes: Normal, Esophagitis, Polyps, and Ulcerative Colitis.
