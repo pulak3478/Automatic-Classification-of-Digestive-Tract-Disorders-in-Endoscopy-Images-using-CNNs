@@ -9,30 +9,30 @@
 - Link: Kvasir Dataset on Kaggle Link: https://www.kaggle.com/datasets/meetnagadia/kvasir-dataset
 
 **Image Preprocessing**
-  To enhance feature extraction and model performance, we applied Contrast Limited Adaptive Histogram Equalization (CLAHE). CLAHE improves image contrast by adjusting histogram distribution, making critical features more distinguishable and aiding in the classification process.
+- To enhance feature extraction and model performance, we applied Contrast Limited Adaptive Histogram Equalization (CLAHE). CLAHE improves image contrast by adjusting histogram distribution, making critical features more distinguishable and aiding in the classification process.
 
 **Model Architecture and Training**
-We used two CNN architectures:
+- We used two CNN architectures:
 - InceptionV3
 - ResNet50V2
-Training Metrics:
-ResNet50V2 achieved a training accuracy of 100% and a validation accuracy of 92.71%.
-Training Details:
+- Training Metrics:
+- ResNet50V2 achieved a training accuracy of 100% and a validation accuracy of 92.71%.
+- Training Details:
 - Loss Function: Categorical Crossentropy
 - Otimizer: Adam
 - Learning Rate: 0.001
 - Batch Size: 32
 
 **Results**
-ResNet50V2 outperformed other models, achieving high accuracy on both training and validation data.
+- ResNet50V2 outperformed other models, achieving high accuracy on both training and validation data.
 - Training Accuracy: 100%
 - Validation Accuracy: 92.71%
-These results indicate the potential of CNNs to assist in diagnostic decision-making by providing rapid, automated classification of GI disorders.
+- These results indicate the potential of CNNs to assist in diagnostic decision-making by providing rapid, automated classification of GI disorders.
 
 **Conclusions**
-Our model demonstrates that deep learning, specifically CNNs, can accurately classify endoscopic images into diagnostic categories. This work supports the development of AI-based tools for GI diagnosis, potentially reducing diagnostic time and aiding in early detection and treatment.
+- Our model demonstrates that deep learning, specifically CNNs, can accurately classify endoscopic images into diagnostic categories. This work supports the development of AI-based tools for GI diagnosis, potentially reducing diagnostic time and aiding in early detection and treatment.
 
 **Future Work**
-Further testing with more diverse and larger datasets.
-Incorporating additional image preprocessing techniques.
-Exploring other CNN architectures for improved performance.
+- Further testing with more diverse and larger datasets.
+- Incorporating additional image preprocessing techniques.
+- Exploring other CNN architectures for improved performance.
